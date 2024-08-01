@@ -1,2 +1,77 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-custom: #03e2de;
+	--ion-color-custom-rgb: 3,226,222;
+	--ion-color-custom-contrast: #000000;
+	--ion-color-custom-contrast-rgb: 0,0,0;
+	--ion-color-custom-shade: #03c7c3;
+	--ion-color-custom-tint: #1ce5e1;
+}
+
+.ion-color-custom {
+	--ion-color-base: var(--ion-color-custom);
+	--ion-color-base-rgb: var(--ion-color-custom-rgb);
+	--ion-color-contrast: var(--ion-color-custom-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-custom-contrast-rgb);
+	--ion-color-shade: var(--ion-color-custom-shade);
+	--ion-color-tint: var(--ion-color-custom-tint);
+}
+
+.btn {
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex {
+display: flex;
+}
+
+.j-c-c{
+justify-content: center;
+}
+
+.a-i-c{
+align-items: center;
+}
+
+.h-100{
+height: 100%;
+}
+
+.mt-1{
+  margin-top: 1rem;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.border-radius-10{
+  border-radius: 10px;
+}
+
+.mr-2{
+  margin-right: 2rem;
+}
+
+.mt-3{
+  margin-top: 3rem;
+}
+
+.none-style{
+background-color: transparent;
+}
+
+.flex-direction-column{
+  flex-direction: column;
+}

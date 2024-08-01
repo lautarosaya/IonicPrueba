@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="custom">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">customers</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="flex j-c-c mt-2">
+    <ion-list class="border-radius-10">
+      <ion-item *ngFor="let customer of customers; let i = index">
+        <ion-avatar slot="start">
+          <img src="{{customer.avatar}}" alt="{{customer.alt}}" />
+        </ion-avatar>
+        <ion-label>
+          <h2>{{customer.name + ' ' + customer.lastName}}</h2>
+        </ion-label>
+        <button
+          ion-button
+          class="none-style"
+          slot="end"
+          (click)="sendCustomer(i)"
+        >
+          <ion-icon name="eye"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div class="flex j-c-c a-i-c mt-3">
+    <button ion-button (click)="goToHome()" class="btn btn-primary">
+      Home
+    </button>
+  </div>
+</ion-content>
