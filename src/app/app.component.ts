@@ -33,6 +33,8 @@ import {
   bookmarkOutline,
   bookmarkSharp,
 } from 'ionicons/icons';
+import { HttpClientModule } from '@angular/common/http';
+import { CapacitorHttp } from '@capacitor/core';
 
 @Component({
   selector: 'app-root',
@@ -56,6 +58,7 @@ import {
     IonLabel,
     IonRouterLink,
     IonRouterOutlet,
+    HttpClientModule,
   ],
 })
 export class AppComponent {

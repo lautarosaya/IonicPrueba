@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "John",
+      "lastName": "Jonson",
+      "avatar": 0,
+      "alt": "avatar-image"
+    },
+    {
+      "id": 1,
+      "name": "Jane",
+      "lastName": "Jackson",
+      "avatar": 1,
+      "alt": "avatar-image"
+    },
+    {
+      "id": 2,
+      "name": "Jack",
+      "lastName": "Messi",
+      "avatar": 2,
+      "alt": "avatar-image"
+    }
+  ]
+}

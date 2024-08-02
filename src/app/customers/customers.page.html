@@ -15,7 +15,7 @@
     <ion-list class="border-radius-10">
       <ion-item *ngFor="let customer of customers; let i = index">
         <ion-avatar slot="start">
-          <img src="{{customer.avatar}}" alt="{{customer.alt}}" />
+          <img src="{{customer.avatar.src}}" alt="{{customer.alt}}" />
         </ion-avatar>
         <ion-label>
           <h2>{{customer.name + ' ' + customer.lastName}}</h2>

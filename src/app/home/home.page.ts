@@ -7,6 +7,9 @@ import {
   IonTitle,
   IonToolbar,
   IonButton,
+  IonGrid,
+  IonRow,
+  IonCol,
 } from '@ionic/angular/standalone';
 import { RouterModule } from '@angular/router';
 
@@ -16,6 +19,9 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./home.page.scss'],
   standalone: true,
   imports: [
+    IonCol,
+    IonRow,
+    IonGrid,
     IonButton,
     IonContent,
     IonHeader,
